@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/91a0524847.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+
+<body style="background-color: #2a0944">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-2 text-white" href="#">SONG</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto w-100 justify-content-end">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a
+              >
+            </li>
+            <li class="nav-item fw-bold">
+              <a class="nav-link active text-white" href="#">Features</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link active text-white" href="#">Pricing</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="imag-cover"></div>
+    <div class="card m-5" style="max-width: 100%; max-height: 1000px">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="album.jpg" class="card-img" alt="..." />
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">title</h5>
+                    <p class="card-text">
+                        This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem hic tempore quisquam. Doloremque tempora placeat dolorem magnam
+                        debitis qui id incidunt? Maxime corrupti deleniti non itaque asperiores quaerat! Ex, incidunt. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae saepe magni, quisquam sunt assumenda maiores ducimus, laborum perferendis
+                        exercitationem cupiditate itaque culpa dignissimos asperiores. Facilis ullam ea vero modi asperiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi aperiam dolores reiciendis voluptate quasi libero aspernatur, hic
+                        delectus debitis rerum eaque dicta consequatur numquam in quidem neque totam fugit. Vitae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est dolor dicta vel accusamus neque corporis nisi atque a dolorum quia repellat
+                        iste, provident eligendi aliquid impedit similique quam, repudiandae quo?
+                    </p>
+                    <p class="card-text">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1 class="display-2 text-center text-white fw-5 m-5">ALBUMES</h1>
+    <div class="container gap-1">
+        <div class="row">
+            <div class="col-4">
+                <a href="#">
+                    <div class="card" style="width: 18rem">
+                        <img src="album.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body text-black">
+                            <h5 class="card-title text-center">ALBUMS</h5>
+                            <p class="card-text text-black">
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                </a>
+                </div>
+            </div>
+            <div class="col-4">
+                <a href="">
+                    <div class="card" style="width: 18rem">
+                        <img src="album.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body text-black">
+                            <h5 class="card-title text-center">ALBUMES</h5>
+                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="#">
+                    <div class="card" style="width: 18rem">
+                        <img src="album.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body text-black">
+                            <h5 class="card-title text-center">ALBUMES</h5>
+                            <p class="card-text ">
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1 class="display-2 text-center text-white fw-5 m-5">
+        LEAVE A COMMENT...
+    </h1>
+    <div class="container">
+
+        <div class="row mb-3">
+            <div class="col-10">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label
+          >
+          <p>fill</p>
+          <input
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          />
+        </div>
+        <div class="d-grid gap-2 m-5 col-2 mx-auto">
+          <button class="btn btn-outline-light" id="addComment" type="button">ADD  </button>
+        </div>
+      
+      </div>
+    </div>
+    <div class="container">
+      <h1 class="display-3 text-white text-center fw-5 m-5">
+        Messeage From Lovers
+      </h1>
+      <ul class="list-group list-group-flush" id="list-group">
+        <li class="list-group-item">Best in the world</li>
+        <li class="list-group-item"> best</li>
+      </ul>
+      <h1 class="display-3 text-white text-center  fw-5 m-5">
+        DONATE TO THE BAND %
+      </h1>
+    </div>
+    <div class="container">
+      <div class="row m-5">
+        <div class="col-3">
+          <button
+            type="button"
+            class="btn btn-outline-light fw-bold h3 tip-btn"
+            id="btn"
+            data-bs-toggle="button"
+            autocomplete="off"
+          >
+            5 %
+          </button>
+        </div>
+        <div class="col-3">
+          <button
+            type="button"
+            class="btn btn-outline-light fw-bold h3 tip-btn"
+            data-bs-toggle="button"
+            autocomplete="off"
+          id="btn"
+            >
+            10 % 
+          </button>
+        </div>
+        <div class="col-3">
+          <button
+            type="button" id="btn"
+            class="btn btn-outline-light fw-bold h3 tip-btn"
+            data-bs-toggle="button"
+            autocomplete="off"
+          >
+            25 %
+          </button>
+        </div>
+        <div class="col-3">
+          <button
+            type="button" id="btn"
+            class="btn btn-outline-light fw-bold h3 tip-btn"
+            data-bs-toggle="button"
+            autocomplete="off"
+          >
+            50%
+          </button>
+        </div>
+      </div>
+      <div class="row tm-5 mb-2">
+        <div class="col text-white display-5 text-center" id="cus-button">
+          <input type="text" class="cus-input" id="custom-pay" />
+              $</div> 
+      
+      </div>
+      <button class="denotedBtn"> Submmit</button>
+    </div>
+    <h1 class="display-5 text-white text-center fw-5 m-5" id="thanksHeader"> </h1>
+    <hr class="style-two" />
+    <footer> <p class="text-white  text-center"> YOU CAN FIND US IN HERE</p>
+      <ul class="foter">
+        <a href="" style="color: balck">
+          <li>
+            <i class="fa-brands fa-facebook"> </i>
+          </li>
+        </a>
+        <a href="">
+          <li>
+            <i class="fa-brands fa-instagram"></i>
+          </li>
+        </a>
+        <a href="">
+          <li>
+            <i class="fa-brands fa-spotify"></i>
+          </li>
+        </a>
+      </ul>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
